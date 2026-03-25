@@ -81,6 +81,43 @@ public class OOPSBannerUC7 {
             System.out.println(line);
         }
     }
+
+    public static String[] getO() {
+        return new String[]{
+                " ***** ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *",
+                " ***** "
+        };
+    }
+
+    public static String[] getP() {
+        return new String[]{
+                "***** ",
+                "*     *",
+                "*     *",
+                "***** ",
+                "*      ",
+                "*      ",
+                "*      "
+        };
+    }
+
+    public static String[] getS() {
+        return new String[]{
+                " ***** ",
+                "*     *",
+                "*      ",
+                " ***** ",
+                "      *",
+                "*     *",
+                " ***** "
+        };
+    }
 }
+
     
 
